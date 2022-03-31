@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'cv1';
+  name: string = "Nick";
+  contact: string = "123 Address"
+  tech: string[] = ["Java", "Spring", "Git"];
+
+education = [{
+  school: "UC",
+  degree: "eng",
+  year: "2017"
+}]
+
 }
+
